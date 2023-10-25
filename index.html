@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Color Scheme Generator</title>
+  </head>
+  <body>
+    <div class="app">
+      <section class="header-tools">
+        <label for="colorpicker" class="visually-hidden">Choose a color</label>
+        <input type="color" id="colorpicker" />
+        <div class="select-wrapper">
+          <select id="select" name="select">
+            <option value="0">Monochrome</option>
+            <option value="1">Monochrome-dark</option>
+            <option value="2">Monochrome-light</option>
+            <option value="3">Analogic</option>
+            <option value="4">Complement</option>
+            <option value="5">Analogic-Complement</option>
+            <option value="6">Triad</option>
+          </select>
+        </div>
+        <button class="btn">Get color scheme</button>
+      </section>
+      <section class="main-colorscheme">
+        <div id="first" class="box"></div>
+        <div id="second" class="box"></div>
+        <div id="third" class="box"></div>
+        <div id="fourth" class="box"></div>
+        <div id="fifth" class="box"></div>
+      </section>
+      <section class="footer-hex">
+        <p id="first-hex" class="hex-container">#FFFFFF</p>
+        <p id="second-hex" class="hex-container">#FFFFFF</p>
+        <p id="third-hex" class="hex-container">#FFFFFF</p>
+        <p id="fourth-hex" class="hex-container">#FFFFFF</p>
+        <p id="fifth-hex" class="hex-container">#FFFFFF</p>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
