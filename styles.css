@@ -108,6 +108,7 @@ body {
     height: 100%;
     text-align: center;
     line-height: 42px;
+    cursor: copy;
   }
   
   /*accessibility*/
